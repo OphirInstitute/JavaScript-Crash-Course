@@ -68,29 +68,16 @@ Welcome to the Beginner-Friendly JavaScript Crash-Course - to set you on a journ
 </details>
 <details>
 <summary><a href="#module-4-using-javascript-frameworks-and-libraries---ethersjs-react-js-angularjs">Module 4: Using JavaScript Frameworks and Libraries - EthersJs, React JS, AngularJS</a></summary>
-<!-- <ol>
-<li><a href="#introduction-2">Introduction</a></li>
-<li><a href="#sending-eth-through-a-function--reverts">Sending ETH Through a Function &amp; Reverts</a></li>
-<li><a href="#chainlink--oracles">Chainlink &amp; Oracles</a></li>
-<li><a href="#review-of-sending-eth-and-working-with-chainlink">Review of Sending ETH and working with Chainlink</a></li>
-<li><a href="#interfaces--price-feeds">Interfaces &amp; Price Feeds</a></li>
-<li><a href="#importing-from-github--npm">Importing from GitHub &amp; NPM</a></li>
-<li><a href="#floating-point-math-in-solidtiy">Floating Point Math in Solidity</a></li>
-<li><a href="#basic-solidity-arrays--structs-ii">Basic Solidity: Arrays &amp; Structs II</a></li>
-<li><a href="#review-of-interfacs-importing-from-github--math-in-solidity">Review of Interfacs, Importing from GitHub, &amp; Math in Solidity</a></li>
-<li><a href="#libraries">Libraries</a></li>
-<li><a href="#safemath-overflow-checking-and-the-unchecked-keywork">SafeMath, Overflow Checking, and the &quot;unchecked&quot; keywork</a></li>
-<li><a href="#basic-solidity-for-loop">Basic Solidity: For Loop</a></li>
-<li><a href="#basic-solidity-resetting-an-array">Basic Solidity: Resetting an Array</a></li>
-<li><a href="#sending-eth-from-a-contract">Sending ETH from a Contract</a></li>
-<li><a href="#basic-solidity-constructor">Basic Solidity: Constructor</a></li>
-<li><a href="#basic-solidity-modifiers">Basic Solidity: Modifiers</a></li>
-<li><a href="#testnet-demo">Testnet Demo</a></li>
-<li><a href="#advanced-solidity">Advanced Solidity</a><ul>
-<li><a href="#immutable--constant">Immutable &amp; Constant</a></li>
-<li><a href="#custom-errors">Custom Errors</a></li>
-<li><a href="#receive--fallback-functions">Receive &amp; Fallback Functions</a></li>
-<li><a href="#lesson-4-recap">Lesson 4 Recap</a></li> -->
+<ol>
+<li><a href="#what-are-programming-libraries">What are programming libraries?</a></li>
+<li><a href="#ethersjs">EthersJs</a></li>
+<li><a href="#what-are-programming-frameworks">What are Programming Frameworks?</a></li>
+<li><a href="#reactjs">ReactJs</a></li>
+<li><a href="#react--reactnative">React & ReactNative</a></li>
+<li><a href="#angularjs">AngularJS</a></li>
+<li><a href="##the-distinction-between-angular-and-angularjs">The Distinction between Angular and Angularjs</a></li>
+<li><a href="#which-should-you-choose-react-vs-angularjsangular">Which should you choose: React vs Angularjs/Angular</a></li>
+
 </ol>
 </details>
 
