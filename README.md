@@ -1,1 +1,540 @@
 # JavaScript-Crash-Course
+
+<br/>
+
+Welcome to the Beginenr-Friendly JavaScript Crash-Course - to set you on a journey from Noob to Web3 Builder!
+
+# Resources For This Course
+
+### Questions
+
+- [Join the Community Discord!](https://discord.gg/pF8sw8CF)
+  - Ask questions here and meet with other devs like yourself!
+
+# Table of Contents
+
+<details>
+<summary>Resources</summary>
+<ol>
+<li><a href="#testnet-faucets">Testnet Faucets</a></li>
+<li><a href="#resources-for-this-course">Resources For This Course</a><ul>
+<li><a href="#questions">Questions</a></li>
+</ul>
+</li>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+</ol>
+</details>
+<details>
+<summary> <a href="#module-01-javaScript-basics-and-fundamentals">Module-01: JavaScript Basics and Fundamentals
+</a></summary>
+<ol>
+  <li>
+  <a href="#welcome-to-the-course">Welcome to the course! </a>
+  </li>
+  <li>
+  <a href="#best-practices">Best Practices </a>
+  </li>
+</ol>
+</details>
+
+<details>
+<summary><a href="# Module-02: DOM and DOM Manipulation">Module 02: DOM and DOM Manipulation</a></summary>
+<!-- <ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#setting-up-your-first-contract">Setting Up Your First Contract</a></li>
+<li><a href="#basic-solidity-types">Basic Solidity: Types</a></li>
+<li><a href="#basic-solidity-functions">Basic Solidity: Functions</a></li>
+<li><a href="#basic-solidity-arrays--structs">Basic Solidity: Arrays &amp; Structs</a></li>
+<li><a href="#basic-solidity-compiler-errors-and-warnings">Basic Solidity: Compiler Errors and Warnings</a></li>
+<li><a href="#memory-storage-calldata-intro">Memory, Storage, Calldata (Intro)</a></li>
+<li><a href="#mappings">Mappings</a></li>
+<li><a href="#deploying-your-first-contract">Deploying your First Contract</a></li>
+<li><a href="#the-evm--a-recap-of-lesson-2">The EVM &amp; A Recap of Lesson 2</a></li>
+</ol> -->
+</details>
+<details>
+<summary><a href="# Module-03: UNDERSTANDING THE BASICS OF EVENTS AND EVENT HANDLING IN JAVASCRIPT"> Module 3: Understanding the Basics of Events and Event Handling in Javascript</a></summary>
+<!-- <ol>
+<li><a href="#introduction-1">Introduction</a></li>
+<li><a href="#basic-solidity-importing-contracts-into-other-contracts">Basic Solidity: Importing Contracts into other Contracts</a></li>
+<li><a href="#basic-solidity-interacting-with-other-contracts">Basic Solidity: Interacting with other Contracts</a></li>
+<li><a href="#basic-solidity-inheritance--overrides">Basic Solidity: Inheritance &amp; Overrides</a></li>
+<li><a href="#lesson-3-recap">Lesson 3 Recap</a></li>
+</ol> -->
+</details>
+<details>
+<summary><a href="#Module-04: Using JavaScript Frameworks and Libraries - EthersJs, React JS, AngularJS">Module-04: Using JavaScript Frameworks and Libraries - EthersJs, React JS, AngularJS</a></summary>
+<!-- <ol>
+<li><a href="#introduction-2">Introduction</a></li>
+<li><a href="#sending-eth-through-a-function--reverts">Sending ETH Through a Function &amp; Reverts</a></li>
+<li><a href="#chainlink--oracles">Chainlink &amp; Oracles</a></li>
+<li><a href="#review-of-sending-eth-and-working-with-chainlink">Review of Sending ETH and working with Chainlink</a></li>
+<li><a href="#interfaces--price-feeds">Interfaces &amp; Price Feeds</a></li>
+<li><a href="#importing-from-github--npm">Importing from GitHub &amp; NPM</a></li>
+<li><a href="#floating-point-math-in-solidtiy">Floating Point Math in Solidity</a></li>
+<li><a href="#basic-solidity-arrays--structs-ii">Basic Solidity: Arrays &amp; Structs II</a></li>
+<li><a href="#review-of-interfacs-importing-from-github--math-in-solidity">Review of Interfacs, Importing from GitHub, &amp; Math in Solidity</a></li>
+<li><a href="#libraries">Libraries</a></li>
+<li><a href="#safemath-overflow-checking-and-the-unchecked-keywork">SafeMath, Overflow Checking, and the &quot;unchecked&quot; keywork</a></li>
+<li><a href="#basic-solidity-for-loop">Basic Solidity: For Loop</a></li>
+<li><a href="#basic-solidity-resetting-an-array">Basic Solidity: Resetting an Array</a></li>
+<li><a href="#sending-eth-from-a-contract">Sending ETH from a Contract</a></li>
+<li><a href="#basic-solidity-constructor">Basic Solidity: Constructor</a></li>
+<li><a href="#basic-solidity-modifiers">Basic Solidity: Modifiers</a></li>
+<li><a href="#testnet-demo">Testnet Demo</a></li>
+<li><a href="#advanced-solidity">Advanced Solidity</a><ul>
+<li><a href="#immutable--constant">Immutable &amp; Constant</a></li>
+<li><a href="#custom-errors">Custom Errors</a></li>
+<li><a href="#receive--fallback-functions">Receive &amp; Fallback Functions</a></li>
+<li><a href="#lesson-4-recap">Lesson 4 Recap</a></li> -->
+</ol>
+</details>
+
+<br/>
+
+# Module-01: JavaScript Basics and Fundamentals
+
+Without a doubt, JavaScript is currently the biggest, most popular and most widely used programming language as far as web3 development is concerned.
+As a result, a solid understanding of the JavaScript syntax and fundamentals is very important.
+
+In this crash course, we will go over the following:
+
+- Data types in javascript
+- Using the _typeof_ operator
+- Commenting in Javascript
+- How to declare variables in javascript
+- The naming convention in Javascript.
+
+## Introduction to Data Types in Javascript
+
+Just like we have alphabets symbols and emoticons in our normal traditional languages EG English Spanish Chinese etc we also have something similar of similar nature in programming languages. They are called Data Types.
+Data types are the various ways to represent values in programming.
+In JS, there are two major ways in which values are represented:
+Primitive values (our focus in this course)
+Object values.
+
+When looking at primitive values or primitive data types there are seven(7) major data types. They include:
+
+1. Number
+2. Strings
+3. Boolean
+4. Undefined
+5. Null
+6. Big Int
+7. Symbol
+
+Let's now look into each of these data types.
+
+### Number
+
+The number data type includes integers and float point numbers (ie decimals)
+
+1. Integers: e.g: 10,9,8,7….3,2,1,0,-1,-2,-100, etc
+2. Decimals: -10.2, -8.7, -3.66, -0.55, -1.1, etc
+
+### Strings
+
+A string in Javascript is an array of characters represented between double quotes (" ")single quotes (' ') or backticks (``).
+E.g:
+
+```
+"Ophir Institute"
+"Bitcoin to the Moon"
+'PineApples'
+'Samsung'
+`Apple`
+`Airplane`
+```
+
+### Boolean
+
+A boolean value is either true or false.
+
+e.g:
+
+```
+true
+false
+
+// Also
+const checkValue1 = 10 > 5;
+const checkValue2 = 10 < 5;
+console.log(checkValue1); // returns true;
+console.log(checkValue2); // returns false;
+```
+
+### Undefined
+
+As the name implies, a variable is `undefined` in Javascript if we don't assign a value to it.
+Another occurrences where is a function does not return a value.
+
+e.g:
+
+```
+let birthDate;
+console.log(birthDate); // returns undefined
+```
+
+### Null
+
+A null data type in JS refers to an empty value.
+
+```
+let birthDate = null;
+console.log(birthDate);
+```
+
+### BigInt
+
+A big int data type is a numeric primitive that can hold and store large integers (i.e. large numeric values) beyond what you can ordinarily store with the `number` data type (i.e `Number.MAX_SAFE_INTEGER`)
+
+```
+const checkMaxValue = Number.MAX_SAFE_INTEGER;
+console.log(checkMaxValue); // returns 9007199254740991
+```
+
+### Symbol
+
+The symbol data type represents primitive values that are unique and immutable.
+
+A symbol data type is created using `Symbol()`.
+
+e.g:
+
+```
+const greeting1 = Symbol("Hello World");
+const greeting2 = Symbol("Hello World");
+
+console.log(greeting1 === greeting2); // returns false
+```
+
+> The above example returns false because even though the values are the same, they are stored uniquely, so they are not the same.
+
+## The Caveat in JS Data Types
+
+It is important to note that unlike what you have in solidity and other statically typed languages, JavaScript has dynamic typing (i.e. it is dynamically typed).
+
+This means that you don't need to declare the type. JavaScript does the type interpretation behind the scenes.
+
+```
+// So you can NOT do this:
+
+let Number age = 29;
+console.log(age) // This returns a syntax error.
+```
+
+## The `typeof` operator
+
+There are times during your coding process where you might want to <u>**check the data type**</u> of a variable in your code.
+
+To do this, you can use the `typeof` operator to check the data type of a certain variable.
+
+Illustration:
+
+```
+let birthdate;
+const greeting1 = Symbol("Hello World");
+
+console.log(typeof 007); // returns number
+console.log(typeof "Ophir"); // returns String
+console.log(typeof true); // returns boolean
+console.log(typeof birthDate); // returns undefined
+console.log(typeof greeting1); //returns symbol
+```
+
+## Introduction to Comments in JavaScript
+
+Comments are lines of code that are included in a code for readability. These lines of code are ignored by the compiler/computer engine.
+
+Comments are used in almost every existing programming language out there. However, they are written in different ways across these languages.
+
+In Javascript, there are two ways of writing comments:
+
+- Single-line Comments
+- Multi-line Comments
+
+- **Single line comments**: this is declared using two forward slashes (//)
+
+```
+E.g:
+// This is a comment
+```
+
+- **Multi-line Comments**: This is declared with (/\* \*/)
+
+```
+/*
+This is a multi-line comment
+In JS
+*/
+```
+
+## How to Declare Variables in Javascript
+
+A variable can be likened to a container that holds a certain value.
+
+Variables are used to store data in a computer's memory, so it can be reassessed, reused and modified.
+
+> Take note of these 3 things!
+
+If you need to store a certain value, you declare a variable and store your value in it.
+
+In Javascript, you can declare a variable in three (3) ways using let, const and var.
+
+### Using `let`
+
+This is the flexible way of declaring variables. Variables declared with let can be modified, and reassigned and you can also change the data type.
+
+e.g:
+
+```
+let bestMovie = "Fast & Furious";
+console.log(bestMovie); // returns Fast & Furious - a string
+bestMovie = 300;
+console.log(bestMovie); // returns 300 - a number
+```
+
+### Using `const`
+
+`const` refers to constant. Values stored in a `const` are immutable (i.e. they cannot be changed).
+
+e.g:
+
+```
+const hobbies = "Writing code";
+console.log(hobbies);
+
+// You can't then do this
+hobbies = "Making money"; // it returns a typeError
+```
+
+### Using `var`
+
+This is the old way of defining variables prior to ES6. There are a lot of vulnerabilities surrounding using var to declare variables in JavaScript.
+
+e.g:
+
+```
+var favouriteColor = "Purple";
+var lastName = "Buterin"
+
+console.log(favouriteColor, lastName);
+```
+
+🤔 You may wonder if it has issues why not remove it?
+
+Well, var is preserved for legacy reasons.
+
+A lot of old applications and websites still run with the `var` syntax, hence blocking it out will crash a large portion of websites and apps on the internet.
+
+#### 💡 So which should you use?
+
+As a rule of thumb, always use `const`. However, where you need to reassign a variable, then use `let`. But NEVER use `var`.
+
+> Pretend it doesn't exist!
+
+## Naming Conventions
+
+When it comes to naming variables in Javascript, the universally approved method is to follow the `camelCasing` syntax.
+
+That is, sth like this:
+
+e.g:
+
+```
+firstName;
+dateOfBirth;
+greetingFunction;
+createPolicyAgreement;
+```
+
+There are some other rules to bear in mind, they include the following:
+
+- Your variable name should never begin with a number
+- Do not include special symbols except the dollar sign (\$) and underscore (\_)
+- Never use the hyphen (-) to space variable names, and
+- Do not include a space between words when naming variables.
+
+```
+//dont's
+
+1Name;
+2Phone;
+first-name;
+birth-day-date;
+askaquestion?;
+
+```
+
+<br/>
+
+# Module 2: DOM and DOM Manipulation
+
+In this lesson, we’ll address the concept of DOM and DoM manipulation from a theoretical and practical standpoint, so as to lay a solid background for you when we start using JS to interact with web pages.
+
+## Course Overview
+
+In this course, you’ll learn:
+
+- What the DOM is in Javascript.
+- What DOM Manipulation means.
+- How to Select and manipulate HTML Elements
+- How to Select and Manipulate CSS Styles
+- How to remove classes from HTML elements
+- How to add classes to HTML elements
+
+Without much further ado, let’s dive straight into this
+
+## What does DOM Mean in Javascript?
+
+When we talk about the Document Object Model, we’re referring to a standard representation of HTML documents.
+
+The DOM is a tree-structured representation of an HTML document that gives JS access to all elements, styles and attributes in an HTML document.
+
+![Ophir-DOM](./Ophir-DOM.gif)
+
+> Image Source: W3Schools.com
+
+In essence, the DOM provides developers with a special object ‘document’ which serves as our entry point to select, manipulate, customise and add some interactivity to web pages built with HTML or XML.
+
+Note, however, that the DOM is not a part of JS nor is it a programming language on its own. Instead, the DOM is a programming interface between web pages (or HTML documents) and scripting languages like Javascript/Python, etc.
+
+> You can also work with the DOM in python!
+
+Now, you may ask, _if the DOM is not part o JS, how then does it work with JS?_
+
+Well, the DOM, DOM methods, and its properties is part of web APIs which are inbuilt into most browsers. So, when working with the DOM you may want to run your code directly with your browser’s Javascript engine
+
+**🤔 Why?**
+
+This is because DOM APIs are not an integral part of the NodeJs runtime. So, trying to access the DOM directly in NodeJs will not work. Although, you could get around this with third-party libraries like `jsDoM`, `Cheerio` and `xml2js`, you are not guaranteed optimum performance.
+
+✅ **Solution**: When working with the DOM, it's best to run your code directly on your browser.
+
+> To see a list of all the fundamental data types & interfaces available on the DOM API, check out <u> [this article by mdn](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction#fundamental_data_types)</u>
+
+## What does DOM Manipulation mean in Javascript?
+
+Before we delve into a practical illustration of some cool applications of the DOM, let’s set a detailed background to help you really understand what we’ll be doing in the subsequent sub-headings.
+
+Let’s get started 🚀🚀
+
+You’ve probably learnt that HTML, CSS and Javascript are used to build websites where HTML handles the content, CSS handles the presentation and styling of the content and JS is responsible for the connectivity and interactivity of the content.
+
+In order to efficiently carry out its duty, Javascript needs a way to interact with HTML (and its CSS styling) to manipulate the document structure in one way or the other - to achieve some key objectives of the website/app.
+
+In practice, when you build your web page with HTML and CSS, it is usually very static with less interactivity going on, so there’s a need for a way to add some functionality and interaction there.
+
+This is where DOM manipulation comes into play!
+
+So, you can say here that **DOM manipulation** is the process of using the DOM API to manipulate, change, add, remove, or modify elements, attributes and styles in an HTML document.
+
+To help you better understand this concept, we’ll walk through some DOM manipulation techniques and a mini-application for you to play around with.
+
+## How to Select and manipulate HTML Elements/CSS Styles with the DOM
+
+To select HTML elements with the DOM, the `querySelector` method is mostly used. The syntax looks like this:
+
+> P.S: A method is a function built on an object!
+
+```
+document.querySelector("HTMLElement/CSS Class ID or Class-Name");
+```
+
+E.g. To select the body element of an HTML document, we select it like this:
+
+```
+document.querySelector("body");
+```
+
+**Selecting CSS class names**
+
+Selecting CSS class names is similar to the HTML selection syntax. The only differnce is the period (".") that is added before the class name when selecting it.
+
+```
+document.querySelector(".className");
+```
+
+**Selecting CSS Class IDs**
+
+The basic way of selecting CSS class IDs with the DOM is to add a "#" before the ID name.
+
+```
+document.querySelector("#headerId");
+```
+
+**Selecting CSS class IDs using getElementById**
+
+The alternative way to select CSS class IDs is to use the `getElementById` method.
+
+When we use the `getElementById` method, we can select the same `headerId` in the same way we've been selecting other CSS classes without having to add the "#".
+
+E.g:
+
+```
+document.getElementById("headerId");
+```
+
+**Selecting all elements using a className**
+
+If you need to select all elements using a particular class name or ID use `querySelectorAll`.
+
+```
+document.querySelectorAll(".blocks");
+```
+
+**Selecting all elements using a class Id**
+
+You can select this by using the `getElementsByID` method.
+
+## DOM Manipulation in Practice
+
+It's time to practice all you've learnt so far about the DOM manipulation process by working with a simple and very fun application built solely for this course.
+
+The application you will be working with is a minimal "Web3 Quiz Game" where you answer the question displayed on the site and the site responds to your actions on the site, thereby creating a kind of interaction on a simple HTML website.
+
+You can follow along the following part of this course by cloning this Repository: https://github.com/midesofek/Web3-Quiz-Game
+
+> **Please Note:** The HTML/CSS has already been built, we'll only work on the JavaScript aspect to manipulate the web page. Navigate to the `practice-DOM folder` to follow and code along.
+
+If you go through the `index.html` file in your `main-game` or `practice-DOM` folder, you'll have an idea on what this web3 game is doing.
+
+> You can also open the `index.html` file with **Live Server** to test things out.
+
+**PROJECT: SELECT THE HTML ELEMENTS on the Quiz-Game**
+
+Our focus here is to solely **select** the necessary elements in our HTML document,
+
+To do this we'll follow the same syntax explained in the exxamples shared above.
+
+![Web3-Game-UI](./quizGameUI.PNG)
+
+```
+document.querySelector(".answer-input");
+document.querySelector(".submit-answer");
+document.querySelector(".message");
+document.querySelector(".score");
+document.querySelector(".highscore");
+document.querySelector("body");
+document.querySelector(".restart-quiz");
+document.querySelector(".quiz-container");
+```
+
+Now let's store each selection in variables so we can smoothly reuse them later on.
+
+```
+const answerInput = document.querySelector(".answer-input");
+const inputAnswerBtn = document.querySelector(".submit-answer");
+const displayMessage = document.querySelector(".message");
+const userScore = document.querySelector(".score");
+const userHighScore = document.querySelector(".highscore");
+const backgroundColor = document.querySelector("body");
+const restartButton = document.querySelector(".restart-quiz");
+const containerQuestion = document.querySelector(".quiz-container");
+```
+
+And that's all for this module🥳!
+
+In the next module, you'll learn about JS Events, how to handle them and how to collect data from users and respond to events by users.
+
+#WAGMI🚀
