@@ -25,7 +25,7 @@ Welcome to the Beginner-Friendly JavaScript Crash-Course - to set you on a journ
 </ol>
 </details>
 <details>
-<summary> <a href="#module-01-javaScript-basics-and-fundamentals">Module-01: JavaScript Basics and Fundamentals
+<summary> <a href="#module-1-javaScript-basics-and-fundamentals">Module-01: JavaScript Basics and Fundamentals
 </a></summary>
 <ol>
   <li>
@@ -92,7 +92,7 @@ Welcome to the Beginner-Friendly JavaScript Crash-Course - to set you on a journ
 
 <br/>
 
-# Module-01: JavaScript Basics and Fundamentals
+# Module 1: JavaScript Basics and Fundamentals
 
 Without a doubt, JavaScript is currently the biggest, most popular and most widely used programming language as far as web3 development is concerned.
 As a result, a solid understanding of the JavaScript syntax and fundamentals is very important.
