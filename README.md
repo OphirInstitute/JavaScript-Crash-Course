@@ -25,7 +25,7 @@ Welcome to the Beginner-Friendly JavaScript Crash-Course - to set you on a journ
 </ol>
 </details>
 <details>
-<summary> <a href="#module-1-javaScript-basics-and-fundamentals">Module-01: JavaScript Basics and Fundamentals
+<summary> <a href="#module-1-javaScript-basics-and-fundamentals">Module 1: JavaScript Basics and Fundamentals
 </a></summary>
 <ol>
   <li>
@@ -38,7 +38,7 @@ Welcome to the Beginner-Friendly JavaScript Crash-Course - to set you on a journ
 </details>
 
 <details>
-<summary><a href="#module-2-dom-and-dom-manipulation">Module 02: DOM and DOM Manipulation</a></summary>
+<summary><a href="#module-2-dom-and-dom-manipulation">Module 2: DOM and DOM Manipulation</a></summary>
 <!-- <ol>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#setting-up-your-first-contract">Setting Up Your First Contract</a></li>
@@ -63,7 +63,7 @@ Welcome to the Beginner-Friendly JavaScript Crash-Course - to set you on a journ
 </ol> -->
 </details>
 <details>
-<summary><a href="#Module-04: Using JavaScript Frameworks and Libraries - EthersJs, React JS, AngularJS">Module-04: Using JavaScript Frameworks and Libraries - EthersJs, React JS, AngularJS</a></summary>
+<summary><a href="#Module-04: Using JavaScript Frameworks and Libraries - EthersJs, React JS, AngularJS">Module 4: Using JavaScript Frameworks and Libraries - EthersJs, React JS, AngularJS</a></summary>
 <!-- <ol>
 <li><a href="#introduction-2">Introduction</a></li>
 <li><a href="#sending-eth-through-a-function--reverts">Sending ETH Through a Function &amp; Reverts</a></li>
