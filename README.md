@@ -29,28 +29,37 @@ Welcome to the Beginner-Friendly JavaScript Crash-Course - to set you on a journ
 </a></summary>
 <ol>
   <li>
-  <a href="#welcome-to-the-course">Welcome to the course! </a>
+  <a href="#introduction-to-data-types-in-javascript">Introduction to Data Types in JavaScript</a>
   </li>
   <li>
-  <a href="#best-practices">Best Practices </a>
+  <a href="#the-caveat-in-js-data-types">The Caveat in  JavaScript Data Types </a>
+  </li>
+    <li>
+  <a href="#the-typeof-operator">The `typeOf` Operator`` </a>
+  </li>
+    <li>
+  <a href="#introduction-to-comments-in-javascript">Introduction to Comments in JavaScript </a>
+  </li>
+    <li>
+  <a href="#how-to-declare-variables-in-javascript">How to Declare Variables in Javascript </a>
   </li>
 </ol>
 </details>
 
 <details>
 <summary><a href="#module-2-dom-and-dom-manipulation">Module 2: DOM and DOM Manipulation</a></summary>
-<!-- <ol>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#setting-up-your-first-contract">Setting Up Your First Contract</a></li>
-<li><a href="#basic-solidity-types">Basic Solidity: Types</a></li>
-<li><a href="#basic-solidity-functions">Basic Solidity: Functions</a></li>
+<ol>
+<li><a href="#what-does-dom-mean-in-javascript">What does DOM Mean in Javascript?</a></li>
+<li><a href="#what-does-dom-manipulation-mean-in-javascript">DOM Manipulation in Javascript</a></li>
+<li><a href="#how-to-select-and-manipulate-html-elementscss-styles-with-the-dom">Selecting and Manipulating HTML Elements</a></li>
+<li><a href="#dom-manipulation-in-practice">DOM Manipulation in Practice</a></li>
 <li><a href="#basic-solidity-arrays--structs">Basic Solidity: Arrays &amp; Structs</a></li>
 <li><a href="#basic-solidity-compiler-errors-and-warnings">Basic Solidity: Compiler Errors and Warnings</a></li>
 <li><a href="#memory-storage-calldata-intro">Memory, Storage, Calldata (Intro)</a></li>
 <li><a href="#mappings">Mappings</a></li>
 <li><a href="#deploying-your-first-contract">Deploying your First Contract</a></li>
 <li><a href="#the-evm--a-recap-of-lesson-2">The EVM &amp; A Recap of Lesson 2</a></li>
-</ol> -->
+</ol>
 </details>
 <details>
 <summary><a href="#module-3-understanding-the-basics-of-events-and-event-handling-in-javascript"> Module 3: Understanding the Basics of Events and Event Handling in Javascript</a></summary>
@@ -63,7 +72,7 @@ Welcome to the Beginner-Friendly JavaScript Crash-Course - to set you on a journ
 </ol> -->
 </details>
 <details>
-<summary><a href="#Module-04: Using JavaScript Frameworks and Libraries - EthersJs, React JS, AngularJS">Module 4: Using JavaScript Frameworks and Libraries - EthersJs, React JS, AngularJS</a></summary>
+<summary><a href="#module-4-using-javascript-frameworks-and-libraries---ethersjs-react-js-angularjs">Module 4: Using JavaScript Frameworks and Libraries - EthersJs, React JS, AngularJS</a></summary>
 <!-- <ol>
 <li><a href="#introduction-2">Introduction</a></li>
 <li><a href="#sending-eth-through-a-function--reverts">Sending ETH Through a Function &amp; Reverts</a></li>
