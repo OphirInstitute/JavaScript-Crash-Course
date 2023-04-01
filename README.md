@@ -538,3 +538,5 @@ And that's all for this module🥳!
 In the next module, you'll learn about JS Events, how to handle them and how to collect data from users and respond to events by users.
 
 #WAGMI🚀
+
+<br/>
