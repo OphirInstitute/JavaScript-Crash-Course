@@ -2,7 +2,7 @@
 
 <br/>
 
-Welcome to the Beginenr-Friendly JavaScript Crash-Course - to set you on a journey from Noob to Web3 Builder!
+Welcome to the Beginner-Friendly JavaScript Crash-Course - to set you on a journey from Noob to Web3 Builder!
 
 # Resources For This Course
 
@@ -38,7 +38,7 @@ Welcome to the Beginenr-Friendly JavaScript Crash-Course - to set you on a journ
 </details>
 
 <details>
-<summary><a href="# Module-02: DOM and DOM Manipulation">Module 02: DOM and DOM Manipulation</a></summary>
+<summary><a href="#module-2-dom-and-dom-manipulation">Module 02: DOM and DOM Manipulation</a></summary>
 <!-- <ol>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#setting-up-your-first-contract">Setting Up Your First Contract</a></li>
