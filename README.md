@@ -61,8 +61,9 @@ Welcome to the Beginner-Friendly JavaScript Crash-Course - to set you on a journ
 <li><a href="#introduction-1">What are events in Javascript?</a></li>
 <li><a href="#event-listeners-vs-event-handlers">Event Listeners vs Event Handlers</a></li>
 <li><a href="#common-events-in-javascript">Common Events in Javascript</a></li>
-<li><a href="#basic-solidity-inheritance--overrides">Basic Solidity: Inheritance &amp; Overrides</a></li>
-<li><a href="#lesson-3-recap">Lesson 3 Recap</a></li>
+<li><a href="#handling-events-in-js">Handling Events in JS</a></li>
+<li><a href="#how-to-respond-to-user-events---clicks">How to respond to User Events: Clicks</a></li>
+<li><a href="#how-to-respond-to-user-events---keyboard-presses">How to respond to User Events: Keyboard Presses</a></li>
 </ol>
 </details>
 <details>
