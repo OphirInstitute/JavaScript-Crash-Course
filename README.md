@@ -841,6 +841,8 @@ The developers of angularjs altered updates on the framework in favour of a more
 
 This gives us a clear indication that there is a difference between Angular and Angularjs
 
+<br/>
+
 ## The Distinction between Angular and Angularjs
 
 When compared to Angularjs, Angular is much more efficient, structured and fast.
@@ -853,12 +855,12 @@ Angular is written in typescript and comes with its own CLI tool (very good for 
 
 So considering all of these it is safe to conclude that Angular is a better alternative to Angularjs - although you might need some Typescript knowledge to work with it.
 
+<br/>
+
 ## **Which should you choose: React vs Angularjs/Angular**
 
 Given the smooth integration React gives to web3 and the large support given to it by the web3 community, React is a better option for web3 frontend development.
 
 So, without beating around the bush, Reactjs should be your go-to option for web3 frontend development.
 
-```
-
-```
+---
