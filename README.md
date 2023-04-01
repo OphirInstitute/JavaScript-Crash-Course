@@ -53,7 +53,7 @@ Welcome to the Beginner-Friendly JavaScript Crash-Course - to set you on a journ
 </ol> -->
 </details>
 <details>
-<summary><a href="# Module-03: UNDERSTANDING THE BASICS OF EVENTS AND EVENT HANDLING IN JAVASCRIPT"> Module 3: Understanding the Basics of Events and Event Handling in Javascript</a></summary>
+<summary><a href="#module-3-understanding-the-basics-of-events-and-event-handling-in-javascript"> Module 3: Understanding the Basics of Events and Event Handling in Javascript</a></summary>
 <!-- <ol>
 <li><a href="#introduction-1">Introduction</a></li>
 <li><a href="#basic-solidity-importing-contracts-into-other-contracts">Basic Solidity: Importing Contracts into other Contracts</a></li>
@@ -540,3 +540,114 @@ In the next module, you'll learn about JS Events, how to handle them and how to 
 #WAGMI🚀
 
 <br/>
+
+# Module 3: Understanding the Basics of Events and Event Handling in Javascript
+
+In this lesson, you’ll learn:
+
+- What events mean in Javascript;
+- Common examples of events in Javascript;
+- What event handling entails in Javascript;
+- The difference between events listeners and event handlers; and
+- How to respond to user events (clicks && keyboard presses) with Javascript
+
+## What are events in Javascript?
+
+Simply put, events are those things that occur within an application’s environment.
+
+This could be a user click, cursor hover, keyboard press, key hold, page refresh, page scroll, form open, form submission, etc. The list is almost endless as there are lots of ‘things’ that could happen when a user interacts with a website/application.
+
+However, as developers, what is important to us is ‘catching’ and reacting to these events where necessary. And to do this, we attach an **event listener** (or an event handler) to such event.
+
+```
+E.g:
+document.querySelector("cookButton").addEventListener("click", function(){
+    console.log("Hello World");
+});
+
+```
+
+## Event Listeners vs Event Handlers
+
+The terms event listeners and event handlers are often used interchangeably, but that doesn’t imply they mean the same thing. There's a difference between an event listener and an event handler.
+
+An **event listener** awaits the trigger of the specified event while the **event handler** is the code implementation that responds to the event occurrence.
+
+## Common Events in Javascript
+
+We get a bunch of these events from user engagements with the content on a website. This is usually referred to as HTML events.
+
+Some of these events include the following:
+
+- onClick
+- onKeydown
+- onLoad
+- onmouseover
+- onChange
+
+> You can find a lot more [**here**](https://developer.mozilla.org/en-US/docs/Web/Events)
+
+## Handling Events in JS
+
+In JS, events handlers are used to respond to user actions and to do sth when such event is 'fired' - _the conventional word to use_.
+
+For instance, we may set an event handler (i.e. a code block) to pop open a window alert when a button is clicked.
+
+```
+E.g:
+document.querySelector("stubbornButton").addEventListener("click", function(){
+    window.alert("Welcome to our Site!");
+})
+
+```
+
+In this case, what kind of event is triggered here?
+
+Yes that's right, a button click! so the appropriate event to be handled here is the "onclick" event.
+
+Let's now dive into how to respond to user clicks and keyboard presses with JavaScript.
+<br/>
+
+## How to respond to User Events - Clicks
+
+To handle event clicks (for instance when a user clicks a button), we use the `addEventListener` method - which is one of the properties of the `document` object.
+
+The `addEventListener` method (recall we said a method is a **function** built on an object) takes in two parameters. The first parameter(param) is the event type, while the second param is a callback function which handles the code logic that is executed when the event is fired.
+
+The syntax:
+
+```
+document.querySelector("button").addEventListener("click", function(){
+    //Code Logic is written here
+    // This function is only called when the event is fired
+    // That is why it is called a callback function
+})
+```
+
+<br/>
+
+## How to respond to User Events - Keyboard Presses
+
+To respond to keyboard press events (i.e. when a user presses some keys on their keyboard), we still have to use the `addEventListener` method. This is because the keyboad press (or key press) is another type of JS event.
+
+**NOTE:** The key press event is a global event so they have to be listened on the whole document. They are called global events because they don't happen on one sinlge element.
+
+The syntax:
+
+```
+document.addEventListener("Key-event-type", function(){})
+```
+
+In Javascript, there are three(3) major types of keyboard events:
+
+1. keydown (most used) - _is fired as soon as button is clicked_
+2. keypress - _is fired continously as long as hand is placed on a button_
+3. keyup - _is fired when we lift up our fingers from a key_
+
+Example: Run the code below in your browser console to log into the console the buttons you click on your keyboard
+
+```
+document.addEventListener("keydown", function(event){
+    console.log(event)';
+});
+```
